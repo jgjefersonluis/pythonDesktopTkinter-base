@@ -1,14 +1,14 @@
 from tkinter import *
 
-# cores
-cor1 = '#bdc2bd'  # cinza
+#cores
+cor1='#bdc2db' #cinza
 
 janela = Tk()
-janela.title('Hello, world!')
+janela.title('Olá, mundo!')
 janela.geometry('600x300')
-janela.config(background=cor1)  # color picker no google
+janela.config(background=cor1) # color picker no google
 
-janela.iconphoto(False, PhotoImage(file='icon.png'))
+janela.iconphoto(False, PhotoImage(file='logo.png'))
 janela.resizable(width=False, height=False)
 
 janela.mainloop()
